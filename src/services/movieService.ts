@@ -3,7 +3,7 @@ import type { Movie } from "../types/movie";
 
 interface MovieHttpResponse {
   results: Movie[];
-  total_page: number;
+  total_pages: number;
 }
 
 axios.defaults.baseURL = "https://api.themoviedb.org/3/search";
