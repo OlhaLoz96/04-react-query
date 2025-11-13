@@ -12,7 +12,6 @@ function SearchBar({ onSubmit }: SearchBarProps) {
     // Якщо текстове поле порожнє, виводимо повідомлення
     // і припиняємо виконання функції.
     if (query === "") {
-      // alert("Please enter your search query.");
       toast.error("Please enter your search query.");
       return;
     }
